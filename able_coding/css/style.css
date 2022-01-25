@@ -1,0 +1,106 @@
+body {padding: 0; margin: 0px;}
+
+
+h1{
+  font-family: courier;
+}
+canvas {vertical-align: top;}
+#defaultCanvas0 {
+  visibility: hidden;
+  height: 2000px;
+  width: 50%;
+  float: leftanswer
+  border: 1px solid black;
+  border-right: 0px;
+}
+
+
+iframe {
+  width: 50%; /*Halim Drawing*/
+  float: left;
+  height: 2000px; /*Halim Drawing*/
+  border: 1px solid black;
+  border-right: 0px;
+}
+.CodeMirror{
+  float: right;
+  font-size: 16px;
+  /*height: auto;*/
+  height: 2000px; /*Halim Drawing*/
+  width: 50%; /*Halim Drawing*/
+  border: 1px solid black;
+}
+.styled-background { background-color: #ff7;
+}
+.toggle{
+  margin-top: 15px;
+  left: 650px;
+}
+.fast .toggle-group {
+  transition: left 0.1s; -webkit-transition: left 0.2s;
+}
+.right{
+  text-align: right;
+}
+.toggle-off.btn {
+  background-color:#ec6089;
+  color: #fff;
+  border-color: #ec245e;
+}
+.toggle-on.btn {
+  background-color:#4ca3ec;
+  color: #fff;
+  border-color: #007dff;
+}
+
+.btn-info{
+  border: none;
+}
+.btn-default.active:hover{
+  background-color:#ec245e;
+  color: #fff;
+  border: none;
+}
+.btn-info:hover{
+  border: none;
+}
+
+.red{
+  background-color: transparent;
+  border: none;
+  font-family: 'wiwi';
+  font-size: 350px;
+  /* font-weight: 200;
+  font-variation-settings: 'wght' 200; */
+  color: #ff0000;
+}
+
+.red:active{
+  color: #ff0000;
+}
+
+.red:hover{
+  color: #ff0000;
+}
+
+input{
+  bottom: 0px;
+  margin-bottom: 5px;
+  background-color: transparent;
+  border: none;
+  font-family: 'wiwi';
+  font-size: 350px;
+  color: #000000;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  padding: 0px;
+}
+
+input:active{
+  color: #ff0000;
+}
+
+input:hover{
+  color: #ff0000;
+}
