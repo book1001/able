@@ -61,6 +61,17 @@ iframe{
   background-color: transparent; */
 }
 
+.btn3 {
+  display: block;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  /* border: none;
+  outline: none;
+  padding: 0;
+  background-color: transparent; */
+}
+
 canvas {
   display: block;
 }
@@ -147,6 +158,7 @@ textarea
   visibility: visible;
 }
 
+
 @media print {
   .no-print
   {
@@ -177,17 +189,30 @@ textarea
   }
 
 
+
+
   @media only screen and (min-width:768px) {   /* For tablets: */
+    /* #script-pc {
+      display: block;
+    }
     #script-mobile {
       display: none;
     }
+    #btn-mobile {
+      display: none;
+    } */
   }
 
 @media only screen and (max-width:767px) {   /* For tablets: */
-  #script-pc {
+  /* #script-pc {
     display: none;
   }
-
+  #script-mobile {
+    display: block;
+  }
+  #btn-pc {
+    display: none;
+  } */
   .detail {
     margin-left: 10px;
     text-align: left;
