@@ -49,7 +49,7 @@ function draw() {
   let posX = 0;
   let posY = -7.4;
   let fts = 200;
-  let pfat = constrain(map(mouseX,0,width,0,999),0,999);
+  let pfat = constrain(map(mouseX,0,width,0,200),0,200);
 
   //Mouse position > Variable font
   p.style('margin-top', 61+'px');
