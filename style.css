@@ -65,7 +65,11 @@ iframe{
   display: block;
   position: fixed;
   top: 15px;
-  left: 15px;
+  right: 178px;
+  /* background-color: transparent;
+  border: none;
+  color:transparent;
+  padding: 5px; */
   /* border: none;
   outline: none;
   padding: 0;
@@ -95,6 +99,20 @@ p {
   margin-top: 5px;
   margin-left: 185px;
   margin-right: 185px;
+  font-family: "HelveticaNeueLTStd-Roman", sans-serif;
+  /* font-weight: 300;
+  font-style: normal; */
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  /* color: #fafafa; */
+}
+
+.detail-random {
+  margin-top: 5px;
+  margin-left: 145px;
+  margin-right: 225px;
   font-family: "HelveticaNeueLTStd-Roman", sans-serif;
   /* font-weight: 300;
   font-style: normal; */
@@ -214,6 +232,12 @@ textarea
     display: none;
   } */
   .detail {
+    margin-left: 10px;
+    text-align: left;
+    font-size: 2rem;
+  }
+
+  .detail-random {
     margin-left: 10px;
     text-align: left;
     font-size: 2rem;
