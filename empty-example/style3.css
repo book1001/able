@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "wiwi";
+  src: url("/Library/Fonts/wiwiVF.ttf") format("truetype-variations");
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+p {
+
+  color : #1413C2;
+  text-align: center;
+  font-family: "wiwi";
+  font-stretch: 1%;
+  /*font-weight: 999;*/
+  font-variation-settings: "wdth" 1;
+}
