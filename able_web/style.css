@@ -71,16 +71,18 @@ p {
 
 
 .detail {
-  font-family: arial, sans-serif;
+  margin-top: 5px;
+  font-family: "HelveticaNeueLTStd-Roman", sans-serif;
   /* font-weight: 300;
   font-style: normal; */
-
   font-size: 2.5rem;
   text-align: center;
   line-height: 1.53;
   letter-spacing: 0.5px;
   /* color: #fafafa; */
+  background: transparent;
 }
+
 
 .detail2 {
   font-family: arial, sans-serif;
