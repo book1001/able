@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'wiwi';
+  src: url('assets/wiwiVF.ttf') format("truetype-variations");
+  font-weight: 1 999;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { /* width */
+  width: 15px;
+}
+::-webkit-scrollbar-track { /* Track */
+  background: transparent;
+}
+::-webkit-scrollbar-thumb { /* Handle */
+  background: rgb(0,0,0,0.15);
+  border-radius: 15px;
+  background-clip: none;
+  /* background-clip: padding-box; */
+  border: 5px solid transparent;
+}
+::-webkit-scrollbar-thumb:active { /* Handle on hover */
+  background: rgb(0,0,0,0.24);
+  border-radius: 15px;
+  background-clip: none;
+  /* background-clip: padding-box; */
+  border: 5px solid transparent;
+}
+
+iframe{
+   position: absolute;
+   left: 0;
+   bottom: 0;
+}
+
+.btn {
+  display: block;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  /* border: none;
+  outline: none;
+  padding: 0;
+  background-color: transparent; */
+}
+
+
+canvas {
+  display: block;
+}
+
+p {
+  display: block;
+  margin: auto;
+  color : #000000;
+  text-align: center;
+  font-family: 'wiwi';
+  font-weight: 0;
+}
+
+
+.input-div{
+   vertical-align: middle;
+}
+
+
+.detail {
+  font-family: arial, sans-serif;
+  /* font-weight: 300;
+  font-style: normal; */
+
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 1.53;
+  letter-spacing: 0.5px;
+  /* color: #fafafa; */
+}
+
+.detail2 {
+  font-family: arial, sans-serif;
+  /* font-weight: 300;
+  font-style: normal; */
+
+  font-size: 5rem;
+  text-align: center;
+  line-height: 1.53;
+  letter-spacing: 0.5px;
+  /* color: #fafafa; */
+}
+
+
+textarea
+{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font: 300px "wiwi";
+    font-variation-settings: 'wght' 200;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
