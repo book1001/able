@@ -82,12 +82,14 @@ p {
 
 .detail {
   margin-top: 5px;
+  margin-left: 185px;
+  margin-right: 185px;
   font-family: "HelveticaNeueLTStd-Roman", sans-serif;
   /* font-weight: 300;
   font-style: normal; */
   font-size: 2.5rem;
   text-align: center;
-  line-height: 1.53;
+  line-height: 1.25;
   letter-spacing: 0.5px;
   /* color: #fafafa; */
 }
@@ -143,3 +145,52 @@ textarea
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+@media print {
+  .no-print
+  {
+    display: none !important;
+  }
+  /* Hide every other element */
+  body * {
+    visibility: hidden;
+  }
+  /* displaying print container elements */
+  .print-container, .print-container * {
+    visibility: visible;
+  }
+  @page {
+    size: landscape;
+    /* size: 297mm 210mm; /* landscape */ */
+    /* you can also specify margins here: */
+    top:0px;
+    margin: 0mm;
+    margin-left: 0mm;
+    margin-right: 0mm;
+    /* margin-left: 10mm;
+    margin-right: 10mm;
+    margin-bottom: 10mm;
+    width:20%;
+    height:20%; */
+    }
+  }
+
+
+  @media only screen and (min-width:768px) {   /* For tablets: */
+    #script-mobile {
+      display: none;
+    }
+  }
+
+@media only screen and (max-width:767px) {   /* For tablets: */
+  #script-pc {
+    display: none;
+  }
+
+  .detail {
+    margin-left: 10px;
+    text-align: left;
+    font-size: 2rem;
+  }
+}
