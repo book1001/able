@@ -97,8 +97,10 @@ p {
 
 .detail {
   margin-top: 5px;
-  margin-left: 185px;
-  margin-right: 185px;
+  margin-left: 180px;
+  margin-right: 180px;
+  /* margin-left: 185px;
+  margin-right: 185px; */
   font-family: "HelveticaNeueLTStd-Roman", sans-serif;
   /* font-weight: 300;
   font-style: normal; */
